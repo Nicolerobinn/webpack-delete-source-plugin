@@ -1,0 +1,33 @@
+{
+  "name": "webpack-delete-map-plugin",
+  "version": "1.0.3",
+  "description": "用于webpack删除map源文件",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": "https://github.com/Nicolerobinn/webpack-delete-map-plugin.git",
+  "author": "chenxiaotong <cweb130@163.com>",
+  "keywords": [
+    "webpack",
+    "webpack5",
+    "sourcemap",
+    "sentry",
+    "plugin"
+  ],
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^9.0.13",
+    "@types/node": "^16.11.7",
+    "typescript": "^4.4.4"
+  },
+  "dependencies": {
+    "fs-extra": "^10.0.0"
+  },
+  "optionalDependencies": {
+    "webpack": "^5.63.0"
+  },
+  "license": "MIT"
+}
